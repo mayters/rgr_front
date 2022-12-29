@@ -1,0 +1,33 @@
+body {
+    font-family: 'Seymour One';
+}
+
+img {
+    width: 350px;
+    height: 263px;
+}
+
+.car2 {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.car3 {
+    transform: rotate(180deg);
+}
+
+.car4 {
+    filter: drop-shadow(30px 10px 4px #58D68D);
+}
+
+.car5 {
+    border: 10px solid #56382d; 
+}
+
+.car6 {
+    transition: 1s;
+}
+
+.car6:hover {
+    transform: scale(0.8); 
+}
